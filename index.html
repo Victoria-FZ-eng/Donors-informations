@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <header>
+        <h1>Donation Site</h1>
+    </header>
+    <main>
+        <section >
+            <form id="donateForm">
+                <fieldset>
+                    <legend>Add Your Donation</legend>
+                    <label for="name">Donor Name: </label>
+                    <input type="text" maxlength="30" required id="name">
+                    <br>
+                    <label for="money">Amount:</label>
+                    <select for="amount" id="money">
+                        <option value="100 JD">100 JD</option>
+                        <option value="500 JD">500 JD</option>
+                        <option value="1000JD">1000 JD</option>
+                    </select>
+                    <br>
+                    <input type="submit" value="Submit" id="submitb">
+                </fieldset>
+            </form>
+        </section>
+        <section id="donationData">
+
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy ASAC 2021</p>
+        <script src="JS/app.js"></script>
+    </footer>
+</body>
+</html>

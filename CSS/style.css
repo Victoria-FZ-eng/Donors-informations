@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+body{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-image: url('../img/donate-background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color:#eee;
+    
+}
+
+body header, body footer{
+    border:1px;
+    height: 5rem;
+    width: 100%;
+    background-color: rgba(96, 96, 96,.8);;
+    
+    text-align: center;
+}
+body footer{
+    position: fixed;
+    bottom: 0px;
+    
+}
+footer p {
+    padding-top: 1rem;
+}
+header{
+    position: relative;
+    top:0px;
+    padding:2rem;
+}
+
+
+#donateForm{
+    margin-top: 3rem;
+    margin-left: 1rem;
+    border: 1px;
+    width: 30rem;
+    background-color: rgba(96, 96, 96,.8);
+}
+
